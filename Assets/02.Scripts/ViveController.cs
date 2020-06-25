@@ -37,7 +37,7 @@ public class ViveController : MonoBehaviour
         {
             Debug.Log("TrackPad Click");
         }
-        //트랙패드 터치 
+        //트랙패드 터치 d
         if(trackPadTouch.GetState(any))
         {
             Vector2 pos = trackPadPosition.GetAxis(any);
